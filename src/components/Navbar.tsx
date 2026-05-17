@@ -46,13 +46,14 @@ export default function Navbar() {
           onClick={(e) => { e.preventDefault(); handleNavClick("#home"); }}
           className="flex items-center group"
         >
-          {/* Logo image in a pill-shaped white container for dark navbar contrast */}
-          <div className="relative h-12 w-40 rounded-lg overflow-hidden bg-white shadow-lg group-hover:shadow-[#C79A4A]/40 group-hover:shadow-xl transition-shadow duration-300">
+          {/* Logo without white background box */}
+          <div className="relative h-14 w-48 overflow-hidden">
             <Image
               src="/logo.jpeg"
               alt="Dimitriou Klussenbedrijf logo"
               fill
-              className="object-contain p-1"
+              className="object-contain"
+              style={{ mixBlendMode: "multiply" }}
               priority
             />
           </div>
