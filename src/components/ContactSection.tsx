@@ -66,8 +66,8 @@ export default function ContactSection() {
                   </svg>
                 ),
                 label: "Telefoon",
-                value: "+31 6 12 34 56 78",
-                href: "tel:+31612345678",
+                value: "+31 6 17138295",
+                href: "tel:+31617138295",
               },
               {
                 icon: (
@@ -113,7 +113,7 @@ export default function ContactSection() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/31612345678?text=Hallo%2C%20ik%20zou%20graag%20een%20offerte%20aanvragen."
+              href="https://wa.me/31617138295?text=Hallo%2C%20ik%20zou%20graag%20een%20offerte%20aanvragen."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 px-6 py-4 bg-[#25D366] hover:bg-[#1fbe5a] text-white font-bold rounded-xl transition-all duration-300 shadow-lg hover:shadow-[#25D366]/30 hover:-translate-y-1 mt-2"
@@ -201,7 +201,7 @@ export default function ContactSection() {
                   </label>
                   <input
                     type="tel"
-                    placeholder="+31 6 12 34 56 78"
+                    placeholder="+31 6 17138295"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className={inputClass}
